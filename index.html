@@ -5,12 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>The Great <span id="colorDisplay">RGB</span> Color Game</h1>
-    <div><span id="message"></span></div>
+    <h1>
+        The Great
+        <br>
+        Color Game
+        <br>
+        <span id="colorDisplay">RGB</span>
+    </h1>
+
+    <div id="stripe">
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button class="mode">Easy</button>
+        <button class="mode selected">Hard</button>
+    </div>
+
     <div id="container">
         <div class="square"></div>
         <div class="square"></div>
@@ -20,7 +34,7 @@
         <div class="square"></div>
     </div>
 
-    <script src="app.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>
